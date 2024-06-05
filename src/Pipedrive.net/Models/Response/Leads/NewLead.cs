@@ -32,7 +32,6 @@ namespace Pipedrive.Models.Response.Leads
         [JsonProperty("title")]
         public string Title { get; set; }
 
-        [JsonIgnore]
         [JsonProperty("owner_id")]
         public long OwnerId { get; set; }
 
@@ -40,7 +39,6 @@ namespace Pipedrive.Models.Response.Leads
         [JsonProperty("creator_id")]
         public long CreatorId { get; set; }
 
-        [JsonIgnore]
         [JsonProperty("label_ids")]
         public List<Guid> LabelIds { get; set; }
 
